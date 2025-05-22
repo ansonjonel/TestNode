@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ghcr.io/<usuario>/<repo>:latest
+  IMAGE_NAME: ghcr.io/ansonjonel/mi-aplicacion-node:latest
 
 jobs:
   build:
