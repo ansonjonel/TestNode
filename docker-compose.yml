@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   gitops-demo:
-    image: ghcr.io/<usuario>/<repo>:latest
+    image: ghcr.io/ansonjonel/mi-aplicacion-node:latest
     ports:
       - "3000:3000"
