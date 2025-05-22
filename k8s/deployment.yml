@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gitops-demo
-        image: ghcr.io/ansonjonel/<repo>:latest
+        image: ghcr.io/ansonjonel/mi-aplicacion-node:latest
         ports:
         - containerPort: 3000
 ---
