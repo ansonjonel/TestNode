@@ -17,6 +17,8 @@ spec:
         image: ghcr.io/ansonjonel/mi-aplicacion-node:latest
         ports:
         - containerPort: 3000
+      imagePullSecrets: # <-- AÑADE ESTA SECCIÓN
+        - name: ghcr-cred # <-- ¡El nombre de tu secret!
 ---
 apiVersion: v1
 kind: Service
