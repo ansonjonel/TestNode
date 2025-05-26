@@ -10,7 +10,7 @@ env:
   # Cambia esto para usar el SHA del commit como tag
   # Esto asegura un tag único para cada push
   IMAGE_NAME_BASE: ghcr.io/ansonjonel/mi-aplicacion-node
-  IMAGE_TAG: ${{ github.sha }} # Usará el hash completo del commit
+  IMAGE_TAG: ${{ github.sha }} # Usará el hash completo del commit: SHA-1 de 40 caracteres hex
   # Si prefieres un tag más corto (primeros 7 caracteres del hash):
   # IMAGE_TAG: ${{ github.sha_short }}
 
