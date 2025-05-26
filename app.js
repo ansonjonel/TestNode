@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hola Super +O User desde GitOps con GitHub Actions!\n');
+  res.end('Hola Usuario +OTV desde GitOps con GitHub Actions!\n');
 });
 
 const PORT = process.env.PORT || 3000;
